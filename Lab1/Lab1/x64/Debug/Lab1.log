@@ -1,0 +1,17 @@
+﻿  Source.cpp
+C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab1\Lab1\Source.cpp(10,2): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab1\Lab1\Source.cpp(12,3): error C2065: 'mov': undeclared identifier
+C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab1\Lab1\Source.cpp(12,7): error C2146: syntax error: missing ';' before identifier 'ESI'
+C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab1\Lab1\Source.cpp(12,7): error C2065: 'ESI': undeclared identifier
+C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab1\Lab1\Source.cpp(13,3): error C2146: syntax error: missing ';' before identifier 'movq'
+C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab1\Lab1\Source.cpp(13,3): error C2065: 'movq': undeclared identifier
+C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab1\Lab1\Source.cpp(13,8): error C2146: syntax error: missing ';' before identifier 'mm7'
+C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab1\Lab1\Source.cpp(13,8): error C2065: 'mm7': undeclared identifier
+C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab1\Lab1\Source.cpp(13,17): error C3481: 'ESI': lambda capture variable not found
+C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab1\Lab1\Source.cpp(14,7): error C3260: 'identifier': skipping unexpected token(s) before lambda body
+C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab1\Lab1\Source.cpp(63,1): error C3493: 'F' cannot be implicitly captured because no default capture mode has been specified
+C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab1\Lab1\Source.cpp(65,2): error C2146: syntax error: missing ';' before identifier 'cout'
+C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab1\Lab1\Source.cpp(75,14): error C2601: 'test1': local function definitions are illegal
+C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab1\Lab1\Source.cpp(85,14): error C2601: 'test2': local function definitions are illegal
+C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab1\Lab1\Source.cpp(95,12): error C2601: 'main': local function definitions are illegal
+C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab1\Lab1\Source.cpp(102,1): fatal error C1004: unexpected end-of-file found
