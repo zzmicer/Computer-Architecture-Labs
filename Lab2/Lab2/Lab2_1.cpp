@@ -15,8 +15,8 @@ static const int NumTasks = 4000 * 4000;
 
 int A[NumTasks];
 
-int ind = 0;
-mutex _lock;
+//int ind = 0;
+//mutex _lock;
 
 bool check() {
 	for (int i = 0; i < NumTasks; i++)
@@ -25,20 +25,20 @@ bool check() {
 	return true;
 }
 
-int next_ind() {
-	int index;
-	lock_guard<mutex> lock(_lock);
-	index = ind++;
-	return index;
-}
+//int next_ind() {
+//	int index;
+//	lock_guard<mutex> lock(_lock);
+//	index = ind++;
+//	return index;
+//}
 
-//atomic<int> ind=0;
-mutex _lock1;
+atomic<int> ind=0;
+//mutex _lock1;
 void addOne() {
-	lock_guard<mutex> lock(_lock1);
-	Sleep(2);
+	//lock_guard<mutex> lock(_lock1);
 	while (ind < NumTasks) {
-		A[next_ind()] += 1;
+		A[ind++] += 1;
+		Sleep(2*1e-3);
 	}
 }
 
