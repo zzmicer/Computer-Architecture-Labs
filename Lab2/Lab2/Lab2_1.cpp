@@ -42,26 +42,26 @@ void addOne() {
 	}
 }
 
-int main()
-{
-	auto startTime = high_resolution_clock::now();
-	thread t[NumThreads];
-	for (int i = 0; i < NumThreads; i++)
-	{
-		t[i] = thread(addOne);
-	}
-
-	for (int i = 0; i < NumThreads; i++)
-	{
-		t[i].join();
-	}
-
-	auto stopTime = high_resolution_clock::now();
-	auto elapsed = duration_cast<nanoseconds>(stopTime - startTime);
-	
-	check() ? cout << "Succeded!" : cout << "Failed";
-	cout << "Sec: " << elapsed.count() * 1e-9 << endl;
-
-
-	return 0;
-}
+//int main()
+//{
+//	auto startTime = high_resolution_clock::now();
+//	thread t[NumThreads];
+//	for (int i = 0; i < NumThreads; i++)
+//	{
+//		t[i] = thread(addOne);
+//	}
+//
+//	for (int i = 0; i < NumThreads; i++)
+//	{
+//		t[i].join();
+//	}
+//
+//	auto stopTime = high_resolution_clock::now();
+//	auto elapsed = duration_cast<nanoseconds>(stopTime - startTime);
+//	
+//	check() ? cout << "Succeded!" : cout << "Failed";
+//	cout << "Sec: " << elapsed.count() * 1e-9 << endl;
+//
+//
+//	return 0;
+//}
