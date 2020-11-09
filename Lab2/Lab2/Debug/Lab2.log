@@ -1,4 +1,5 @@
-﻿  Lab2_2.cpp
+﻿  Lab2_1.cpp
+C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab2\Lab2\Lab2_1.cpp(41,10): warning C4244: 'argument': conversion from 'double' to 'DWORD', possible loss of data
   Lab2_2_2.cpp
   Generating Code...
   Lab2.vcxproj -> C:\Learning\BSUIR\5th Term\labs\AVS\Computer_Architecture_Labs\Lab2\Debug\Lab2.exe
